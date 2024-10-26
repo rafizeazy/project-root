@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <title>Fitur Layanan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      .accordion-content {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="bg-white flex items-center justify-center min-h-screen">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold text-blue-900 mb-8">Fitur Layanan</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Personalized & Individualized</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Personalized & Individualized.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Bimbingan Belajar di Rumah</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Bimbingan Belajar di Rumah.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Kurikulum yang Tepat</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Kurikulum yang Tepat.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Laporan KBM Reguler</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Laporan KBM Reguler.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Melatih Keahlian Pendukung</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Melatih Keahlian Pendukung.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Personalized & Individualized</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Personalized & Individualized.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Mengasah Kemampuan Siswa</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Mengasah Kemampuan Siswa.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Berbasis Personal Interest Siswa</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Berbasis Personal Interest Siswa.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Strategic Goal Setting</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Strategic Goal Setting.</p>
+          </div>
+        </div>
+        <div class="accordion-item bg-blue-500 text-white p-4 rounded-lg">
+          <div
+            class="flex items-center justify-between cursor-pointer"
+            onclick="toggleAccordion(this)"
+          >
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-2xl mr-4"></i>
+              <span>Mendukung Pembelajaran Mandiri</span>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="accordion-content mt-4">
+            <p>Deskripsi untuk Mendukung Pembelajaran Mandiri.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleAccordion(element) {
+        const content = element.nextElementSibling;
+        const icon = element.querySelector(".fas");
+
+        // Close all other accordion contents
+        document.querySelectorAll(".accordion-content").forEach((item) => {
+          if (item !== content) {
+            item.style.display = "none";
+          }
+        });
+        document.querySelectorAll(".accordion-item .fas").forEach((item) => {
+          if (item !== icon) {
+            item.classList.remove("fa-chevron-up");
+            item.classList.add("fa-chevron-down");
+          }
+        });
+
+        // Toggle the clicked accordion content
+        if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block";
+          icon.classList.remove("fa-chevron-down");
+          icon.classList.add("fa-chevron-up");
+        } else {
+          content.style.display = "none";
+          icon.classList.remove("fa-chevron-up");
+          icon.classList.add("fa-chevron-down");
+        }
+      }
+    </script>
+  </body>
+</html>
